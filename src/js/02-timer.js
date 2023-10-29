@@ -72,3 +72,8 @@ function convertMs(ms) {
 function addLeadingZero(value) {
   return value.toString().padStart(2, '0');
 }
+
+document.body.style.textAlign = 'center';
+document.body.style.fontSize = '30px';
+document.body.style.color = 'white';
+document.body.style.backgroundColor = 'dimgray';
